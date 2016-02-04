@@ -7,7 +7,8 @@
   <parent>
     <groupId>org.jitsi</groupId>
     <artifactId>jitsi-universe</artifactId>
-    <version>1.0-20160405.235512-16</version>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../jitsi-universe/pom.xml</relativePath>
   </parent>
 
   <artifactId>jicofo</artifactId>
@@ -73,57 +74,47 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jicoco</artifactId>
-      <version>1.0-20160420.185019-32</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-android-osgi</artifactId>
-      <version>1.0-20150723.002702-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-configuration</artifactId>
-      <version>2.9-20150723.181638-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-credentialsstorage</artifactId>
-      <version>2.9-20150723.181643-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-netaddr</artifactId>
-      <version>2.9-20150723.181645-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-protocol</artifactId>
-      <version>2.9-20151211.202410-3</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-protocol-jabber</artifactId>
-      <version>2.9-20160708.122741-18</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-protocol-media</artifactId>
-      <version>2.9-20150723.181646-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-ui-service</artifactId>
-      <version>2.9-20150723.181654-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-util</artifactId>
-      <version>2.9-20160203.194039-2</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>libjitsi</artifactId>
-      <version>1.0-20160512.161146-162</version>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.osgi</groupId>
@@ -152,7 +143,6 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-videobridge</artifactId>
-      <version>1.0-20160509.151912-151</version>
       <scope>test</scope>
     </dependency>
     <dependency>
